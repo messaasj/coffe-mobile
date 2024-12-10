@@ -10,6 +10,7 @@
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição */
         border-bottom: 25vh solid black;
+        box-shadow: inset 0.2px 0.2px 400px rgba(0, 0, 0, 0.849);
     }
     .baixo{
         width: 90%;
@@ -32,7 +33,7 @@
         margin-top: 0;
     }
     .botao-intro{
-        background-color:blue;
+        background-color: rgb(198, 124, 78);
         border: none;
         font-size: 19px;
         width: 75%;
@@ -42,5 +43,10 @@
         color: white;
         font-family: "Sora", sans-serif;
         border-radius: 15px;
+    }
+    .botao-intro:hover{
+      
+        transform: scale(1.05);
+    
     }
 }
