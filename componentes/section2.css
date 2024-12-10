@@ -1,0 +1,93 @@
+@media (max-width: 392px) {
+    .section2{
+        background: linear-gradient(to top,  #313131 , #111111);
+        max-height: 40vh;
+        max-width: clamp(100%, 100vw, 100%);
+        border-bottom: 8vh solid #fffbf0;
+    }
+    .loc{
+       font-family: "Sora", sans-serif;
+       font-weight: 600;
+       color: #D8D8D8;
+      
+       padding-top: 15%;
+       padding-left: 5%;
+    }
+    .busca{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .busca p{
+       color: #A2A2A2;
+       font-family: "Sora", sans-serif;
+       
+    }
+    .lu{
+        padding: 12px 15px;
+        border-radius: 15px;
+        background-color: rgb(198, 124, 78);
+    }
+    .b{
+        background: linear-gradient(to right,  #3d3d3d , #201f1f);
+        padding: 15px 28%;
+        border-radius: 15px;
+    
+    }
+    .image-sec2{
+       text-align: center;
+    }
+    .nav-3{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+    .nav-3 a{
+        color: #313131;
+        font-weight: 600;
+        font-family: "Sora", sans-serif;
+        border-bottom: 2px solid rgb(198, 124, 78);
+        border-radius: 5px;
+
+    }
+
+
+
+
+    .area-cafes{
+          background-color: #fffbf0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 7%;
+    }
+    .categoria-cafe{
+      background-color: white;
+      border-radius: 15px;
+      padding: 4% 4% 1% 4%;
+      justify-self: center;
+        
+    }
+    .categoria-cafe h3{
+        font-family: "Sora", sans-serif;
+        font-weight: 900;
+        color: #242424;
+        font-style: italic;
+      }
+      .categoria-cafe h6{
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        color: #A2A2A2;
+          
+      }
+      .categoria-cafe p{
+        color: black;
+        font-family: "Sora", sans-serif;
+        font-weight: 900;
+        font-size: 1.2em;
+        
+      }
+    
+      
+}
+
