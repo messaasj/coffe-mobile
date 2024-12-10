@@ -53,18 +53,22 @@
 
 
 
-
+.section4{
+    max-width: clamp(100%, 100vw, 100%);
+}
     .area-cafes{
           background-color: #fffbf0;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 7%;
+        max-width: 98%;
+        gap: 2%;
     }
     .categoria-cafe{
       background-color: white;
       border-radius: 15px;
-      padding: 4% 4% 1% 4%;
+      padding: 4%;
       justify-self: center;
+      border: 0.1px solid rgba(165, 159, 159, 0.322);
         
     }
     .categoria-cafe h3{
