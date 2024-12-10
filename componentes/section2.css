@@ -9,8 +9,7 @@
        font-family: "Sora", sans-serif;
        font-weight: 600;
        color: #D8D8D8;
-      
-       padding-top: 15%;
+       padding-top: 20%;
        padding-left: 5%;
     }
     .busca{
@@ -41,6 +40,7 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 5%;
+       
     }
     .nav-3 a{
         color: #313131;
@@ -70,6 +70,10 @@
       justify-self: center;
       border: 0.1px solid rgba(165, 159, 159, 0.322);
         
+    }
+    .categoria-cafe img{
+        text-align: center;
+        margin: 0;
     }
     .categoria-cafe h3{
         font-family: "Sora", sans-serif;
