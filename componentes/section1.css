@@ -1,0 +1,48 @@
+@media (max-width: 390px) {
+
+    h1{
+        background-color: red;
+    }
+    .img{
+        background-image: url('/img/6.png');
+        max-width: clamp(100%, 100vw, 100%);
+   
+        height: 75vh; /* Ocupa toda a altura da tela */
+        background-size: cover; /* Faz a imagem preencher o container */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição */
+        border-bottom: 25vh solid black;
+    }
+    .baixo{
+        width: 90%;
+        font-family: "Sora", sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 24%);
+        color: white;
+        text-align: center;
+        
+       
+       
+    }
+    .baixo h2{
+        font-size: 2em;
+    }
+    .baixo p{
+        font-weight: 100;
+        margin-top: 0;
+    }
+    .botao-intro{
+        background-color: rgb(198, 124, 78);
+        border: none;
+        font-size: 19px;
+        width: 75%;
+        font-weight: 300;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        color: white;
+        font-family: "Sora", sans-serif;
+        border-radius: 15px;
+    }
+}
