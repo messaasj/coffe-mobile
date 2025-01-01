@@ -34,6 +34,7 @@
     
     }
     .image-sec2{
+        margin-top: 2%;
        text-align: center;
     }
     .nav-3{
@@ -101,7 +102,7 @@
     
 
       .section5{
-
+        box-shadow: 0 -9px 8px rgba(20, 20, 20, 0.055); /* Sombra apenas na parte superior */
         max-width: clamp(100%, 100vw, 100%);
         background-color: #f9f9f9;
         height: 100vh;
@@ -124,14 +125,17 @@
       .flexbox{
         display: flex;
         margin: 5%;
+        border-bottom: 1px solid black;
+        border-image: linear-gradient(to right, rgb(182, 182, 182), rgb(63, 63, 63), rgb(182, 180, 180)) 1; 
       }
       .classificacao{
-        line-height: 180%;
+        line-height: 140%;
         width: 50%;
       }
-      .classificacao h2, h3{
+      .classificacao h4, h5{
        font-size: 1.5em;
        font-family: "Sora", sans-serif;
+       align-items: center;
       }
   
       .classificacao p{
@@ -145,6 +149,73 @@
         justify-content: space-around;
         align-items: center;
         width: 50%;
+      }
+      .description{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .description h1{
+       font-size: 1.2em;
+       font-family: "Sora", sans-serif;
+       margin-bottom: 3%;
+      }
+      .description p{
+       
+        font-size: 1em;
+       font-family: "Sora", sans-serif;
+       color: grey;
+       word-spacing: 1px;
+      }
+      .tamanho{
+       
+    
+        margin: 5%;
+      }
+      .tamanho h1{
+        font-size: 1.2em;
+        font-family: "Sora", sans-serif;
+        margin-bottom: 5%;
+      }
+      .wrapper{
+        display: flex;
+        justify-content: space-around;
+      }
+      .b1{
+        background-color: #fff;
+        padding: 5% 10%;
+        border-radius: 15px;
+        border: none;
+        border: 1px solid rgba(99, 99, 99, 0.315);
+      }
+      .b1:hover{
+        background-color: #f9f2ed;
+        border: 1px solid ;
+        color: #c67c4e;
+      }
+      .pedido{
+      
+        display: flex;
+        justify-content: space-around;
+      }
+      .preço{
+        font-family: "Sora", sans-serif;
+        color: grey;
+      }
+      .preço p{
+        color: #c67c4e;
+        font-size: 1.2em;
+        font-weight: 700;
+      }
+      .comprar button{
+        padding: 10% 15vw;
+        background-color: #c67c4e;
+        border: none;
+        border-radius: 15px;
+        font-family: "Sora", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2em;
       }
       
 }
