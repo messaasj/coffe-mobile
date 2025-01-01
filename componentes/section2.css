@@ -75,6 +75,9 @@
         text-align: center;
         margin: 0;
     }
+    .categoria-image{
+        align-items: center;
+    }
     .categoria-cafe h3{
         font-family: "Sora", sans-serif;
         font-weight: 900;
@@ -96,6 +99,53 @@
         
       }
     
+
+      .section5{
+
+        max-width: clamp(100%, 100vw, 100%);
+        background-color: #f9f9f9;
+        height: 100vh;
+        margin-top: 10%;
+      }
+      .detail{
+        display: flex;
+        padding: 5% 0% 10% 0%;
+        justify-content: space-around;    
+        align-items: center;
+      }
+      .detail p{
+        font-size: 1.5em;
+        font-family: "Sora", sans-serif;
+        font-weight: 700;
+      }
+      .imagem2{
+         text-align: center;
+      }
+      .flexbox{
+        display: flex;
+        margin: 5%;
+      }
+      .classificacao{
+        line-height: 180%;
+        width: 50%;
+      }
+      .classificacao h2, h3{
+       font-size: 1.5em;
+       font-family: "Sora", sans-serif;
+      }
+  
+      .classificacao p{
+        font-family: "Sora", sans-serif;
+        font-size: 0.8em;
+        color: gray;
+      }
+ 
+      .svgs{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+      }
       
 }
 
