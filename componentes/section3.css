@@ -192,9 +192,12 @@ input:focus {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    padding: 10% 15vw; 
 }
 .buttondeliveryOrder:hover{
     background-color:  #b16f46;
+    padding: 10% 15vw;  
+  
 }
 .flexbox1{
     display: flex; /* Ativa o Flexbox */
