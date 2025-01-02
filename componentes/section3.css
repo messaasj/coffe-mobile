@@ -142,7 +142,7 @@ input:focus {
   
   
   .quantity {
-    margin: 0 10px;
+    margin: 0 10%;
     font-size: 1em;
     font-family: "Sora", sans-serif;
   }
@@ -182,12 +182,13 @@ input:focus {
     justify-content: space-between;
   }
   .buttondeliveryOrder{
-    padding: 3% 13%;
+    padding: 5% 13%;
     background-color:  #c67c4e;
     border-radius: 10px;
     color: #f9f9f9;
     border: none;
     font-weight: 600;
+    font-size: 1.1em;
     display: flex;
     justify-content: center;
     margin-bottom: 5%;

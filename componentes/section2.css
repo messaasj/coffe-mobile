@@ -6,7 +6,6 @@
         border-bottom: 8vh solid #fffbf0;
     }
     .loc{
-       font-family: "Sora", sans-serif;
        font-weight: 600;
        color: #D8D8D8;
        padding-top: 20%;
@@ -19,8 +18,6 @@
     }
     .busca p{
        color: #A2A2A2;
-       font-family: "Sora", sans-serif;
-       
     }
     .lu{
         padding: 12px 15px;
@@ -32,7 +29,6 @@
         padding: 15px 28%;
         border-radius: 15px;
     }
- 
     .image-sec2{
         margin-top: 2%;
        text-align: center;
@@ -41,24 +37,22 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 5%;
-       
     }
     .nav-3 a{
         color: #313131;
         font-weight: 600;
-        font-family: "Sora", sans-serif;
         border-bottom: 2px solid rgb(198, 124, 78);
         border-radius: 5px;
-
     }
 
 
+    
 
 .section4{
-    max-width: clamp(100%, 100vw, 100%);
+        max-width: clamp(100%, 100vw, 100%);
 }
     .area-cafes{
-          background-color: #fffbf0;
+        background-color: #fffbf0;
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 96%;
@@ -79,15 +73,13 @@
     .categoria-image{
         align-items: center;
     }
-    .categoria-cafe h3{
-        font-family: "Sora", sans-serif;
+    .categoria-cafe h3{   
         font-weight: 900;
         color: #242424;
         font-style: italic;
       }
-      .categoria-cafe h6{
-        font-family: "Sora", sans-serif;
-        font-size: 14px;
+      .categoria-cafe h6{       
+        font-size: 0.9em;
         font-weight: 100;
         color: #A2A2A2;
           
@@ -116,7 +108,6 @@
       }
       .detail p{
         font-size: 1.5em;
-        font-family: "Sora", sans-serif;
         font-weight: 700;
       }
       .imagem2{
@@ -134,12 +125,10 @@
       }
       .classificacao h4, h5{
        font-size: 1.5em;
-       font-family: "Sora", sans-serif;
        align-items: center;
       }
   
       .classificacao p{
-        font-family: "Sora", sans-serif;
         font-size: 0.8em;
         color: gray;
       }
@@ -157,24 +146,18 @@
       }
       .description h1{
        font-size: 1.2em;
-       font-family: "Sora", sans-serif;
        margin-bottom: 3%;
       }
       .description p{
-       
-        font-size: 1em;
-       font-family: "Sora", sans-serif;
+       font-size: 1em;
        color: grey;
        word-spacing: 1px;
       }
       .tamanho{
-       
-    
         margin: 5%;
       }
       .tamanho h1{
         font-size: 1.2em;
-        font-family: "Sora", sans-serif;
         margin-bottom: 5%;
       }
       .wrapper{
@@ -201,7 +184,6 @@
         justify-content: space-around;
       }
       .preço{
-        font-family: "Sora", sans-serif;
         color: grey;
       }
       .preço p{

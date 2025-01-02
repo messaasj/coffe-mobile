@@ -1,11 +1,8 @@
 @media (min-width: 500px) and (max-width: 769px){
 .section2{
-      
         max-height: 25vh;
-       
     }
     .loc{
-  
        padding-top: 10%;
        padding-left: 5%;
     }
@@ -47,7 +44,6 @@
         box-shadow: 0 -9px 8px rgba(20, 20, 20, 0.055); /* Sombra apenas na parte superior */
         max-width: clamp(100%, 100vw, 100%);
         background-color: #f9f9f9;
-      
         margin-top: 10%;
       }
       .detail{
