@@ -202,3 +202,127 @@ input:focus {
     align-items: center; /* Centraliza verticalmente */
 
 }
+
+
+
+
+.section7{
+    background-image: url('../img/High-Fidelity\ \(\ Delivery\ \).png');
+    height: 65vh;
+    max-width: clamp(100%, 100vw, 100%);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+
+.entrega{
+    background-color: #fff;
+    height: 35vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    border-radius: 13px 13px 0px 0px;
+    width: clamp(100%, 100vw, 100%);
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    box-shadow: 0 -9px 8px rgba(20, 20, 20, 0.123);
+    
+}
+.entrega p{
+
+    color: grey;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.progress-container {
+    width: 95%;
+   margin-top: 5%;
+    max-width: 100vw;
+    background-color: #f1eeeec7;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-step {
+    width: 18%; /* Largura ajustada para espaçamento */
+    height: 0.3em;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-step::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27ae60; /* Cor do preenchimento */
+    border-radius: 10px;
+}
+
+/* Animação contínua na última barra */
+.progress-step:last-child::after {
+    animation: fill-repeat 2.5s ease-in-out infinite;
+}
+
+@keyframes fill-repeat {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.info-delivery{
+   
+    margin: 5%;
+    display: flex;
+    gap: 5%;
+    border: 0.5px solid rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    padding: 2%;
+}
+.svg-info-delivery{
+    
+    padding: 4%;
+    border-radius: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.295);
+}
+.svg-info-delivery:hover{
+    
+  background-color: rgba(236, 236, 236, 0.801);
+}
+.wrapper-info-delivery{
+    text-align: left;
+
+}
+.wrapper-info-delivery p{
+    margin-top: 2%;
+}
+.info-motorista{
+    display: flex;
+    align-items: center;
+
+    margin: 5%;
+    justify-content: space-between;
+
+    padding-right: 5%;
+}
+.svg-telefonar-motorista{
+
+    padding: 10%;
+    border-radius: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.295);
+}
+.wrapper-info-motorista{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}

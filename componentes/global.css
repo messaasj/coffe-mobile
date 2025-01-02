@@ -7,7 +7,7 @@ body, h1, h2, h3, p,  h4, h6, figure, input, nav{
     font-size: 16px;
     
 }
-h1, h2, h3, p,  h4, h6, a, input, h5, nav, h6{
+h1, h2, h3, p,  h4, h6, a, input, h5, nav, h6, span{
     font-family: "Sora", sans-serif;
 }
 body{
