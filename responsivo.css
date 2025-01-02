@@ -1,0 +1,121 @@
+@media (min-width: 500px) and (max-width: 769px){
+.section2{
+      
+        max-height: 25vh;
+       
+    }
+    .loc{
+  
+       padding-top: 10%;
+       padding-left: 5%;
+    }
+    .busca p{
+       font-size: 1.3em;
+       display: flex;
+       align-items: center;
+     }
+ 
+  
+    .image-sec2{
+        margin-top: 6%;
+        transform: scale(1.5);
+    }
+    .nav-3{
+        margin-bottom: 5%;
+        margin-top: 18%;
+        font-size: 1.3em;
+       
+    }
+    .nav-3 a{
+        border-bottom: 4px solid rgb(198, 124, 78);
+    }
+
+    .area-cafes{
+        transform: scale(1.5);
+        margin: 0 auto;
+        max-width: 50%; /* Ajuste conforme necessário */
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    
+   
+   
+
+    
+
+      .section5{
+        box-shadow: 0 -9px 8px rgba(20, 20, 20, 0.055); /* Sombra apenas na parte superior */
+        max-width: clamp(100%, 100vw, 100%);
+        background-color: #f9f9f9;
+      
+        margin-top: 10%;
+      }
+      .detail{
+        display: flex;
+        padding: 5% 0% 10% 0%;
+        justify-content: space-around;    
+        align-items: center;
+      }
+      .detail p{
+        font-size: 2.3em;
+      }
+      .imagem2{
+        transform: scale(1.5);
+        margin-bottom: 10%;
+      }
+      svg{
+       height: 2.5em;
+       width: 2.5em;
+      }
+      
+       
+      
+      .classificacao h4, h5{
+       font-size: 2em;
+      }
+  
+      .classificacao p{
+        font-size: 1.1em;
+      }
+ 
+      .svgs{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+      }
+      .description{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .description h1{
+       font-size: 1.8em;
+      }
+      .description p{
+       
+        font-size: 1.1em;
+      
+      }
+      .tamanho{
+        margin: 5%;
+      }
+      .tamanho h1{
+        font-size: 1.8em;
+      }
+      .b1{
+    
+        font-size: 1.4em;
+      }
+  
+    
+      .preço p{
+      
+        font-size: 1.8em;
+        
+      }
+      .comprar button{
+        font-size: 1.6em;
+        margin-bottom: 10%;
+      }
+}
