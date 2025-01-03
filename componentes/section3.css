@@ -200,9 +200,9 @@ input:focus {
   
 }
 .flexbox1{
-    display: flex; /* Ativa o Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 
 }
 
